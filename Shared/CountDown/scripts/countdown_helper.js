@@ -18,6 +18,7 @@ function startcountdown(yr, m, d, hr, min, note) {
 //Gets called when times up
 function touchdown(note) {
     //TODO: add callback code here
+    window.external.notify(note);
 }
 
 
