@@ -16,7 +16,7 @@ function startcountdown(yr, m, d, hr, min, note) {
 
 
 //Gets called when times up
-function touchdown() {
+function touchdown(note) {
     //TODO: add callback code here
 }
 

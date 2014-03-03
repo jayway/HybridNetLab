@@ -64,7 +64,7 @@ function countdown(yr, m, d, hr, min) {
         document.getElementById('note').innerHTML = note;
         document.getElementById('note').style.display = "block";
         document.getElementById('countdown').style.display = "none";
-        if (typeof (touchdown) == "function") touchdown();
+        if (typeof (touchdown) == "function") touchdown(note);
         //clearTimeout(startTimer);
         return;
     }
