@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HybridWinJS</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- HybridWinJS references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+    <body style="align-content: space-around;">
+        <x-ms-webview id="webview" src="ms-appx-web:///Shared/MainPage.html" style="margin-left: 325px; margin-top: 50px; min-width: 300px; min-height: 100px;"></x-ms-webview>
+        <br/>
+        <button type="button" style="margin: 20px;" id="hoverboardbutton">Hoverboard</button>
+        <label for="minutes" style="margin: 5px;">Minutes:</label>
+        <input id="minutes" style="margin: 5px;" type="text">
+        <button type="button" style="margin: 20px;" id="startbutton">Start</button>
+        <label for="note" style="margin: 5px;">Alarm Text:</label>
+        <input id="note" style="margin: 5px;" type="text">
+    </body>
+</html>
