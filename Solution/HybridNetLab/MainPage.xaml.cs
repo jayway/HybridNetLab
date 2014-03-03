@@ -57,5 +57,11 @@ namespace HybridNetLab
         {
             new MessageDialog(e.Value).ShowAsync();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string[] args = { "document.getElementById('myDiv').innerHTML = 'Jay was here!';" };
+            string foo = MyWebView.InvokeScript("eval", args);
+        }
     }
 }

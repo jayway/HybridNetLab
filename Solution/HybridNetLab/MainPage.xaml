@@ -8,17 +8,20 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-       <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <WebView x:Name="MyWebView" HorizontalAlignment="Center" Height="100" Width="300" Source="ms-appx-web:///Assets/Shared/MainPage.html" VerticalAlignment="Center" ScriptNotify="MyWebView_ScriptNotify" />
             <StackPanel Margin="12" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button  Margin="12" HorizontalAlignment="Center" Click="Hoverboard_Click">Hoverboard</Button>
-                <TextBlock  Margin="24,12,0,12" VerticalAlignment="Center" FontSize="14">Minutes: </TextBlock>
+                <TextBlock  Margin="24,12,0,12" VerticalAlignment="Center" FontSize="14">Minutes:</TextBlock>
                 <TextBox Name="Minutes" Margin="12" HorizontalAlignment="Center" Width="200"/>
                 <TextBlock  Margin="24,12,0,12" VerticalAlignment="Center" FontSize="14">Message:</TextBlock>
                 <TextBox Name="Note" Margin="12" HorizontalAlignment="Center" Width="200"/>
                 <Button  Margin="12" HorizontalAlignment="Center" Click="Custom_Click" FontFamily="Global User Interface">Start Custom</Button>
             </StackPanel>
-        </StackPanel> 
+            <StackPanel Margin="12" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button HorizontalAlignment="Left" Click="Button_Click">Invoke eval</Button>
+            </StackPanel>
+        </StackPanel>
 
     </Grid>
 </Page>
