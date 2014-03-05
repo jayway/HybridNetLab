@@ -28,7 +28,7 @@ Instructions
    - add animations to the WebView control
    - test NavigateToString() and/or NavigateToStream() 
    - test the 8.0 WebView or the Windows Phone WebBrowser Control
-   - try out some of the old and new events in 8.1
+   - try out some of the old and new events in 8.1, e.g NavigationStarting, NavigationCompleted
    - try something other from the "What’s new in WebView" link below
    - call the js eval from C# to e.g. read or change the DOM tree
    - add several WebViews to a Hub control
@@ -37,6 +37,7 @@ links
 -----
 - [Ten Things You Need to Know About WebView](http://blogs.msdn.com/b/wsdevsol/archive/2012/10/18/nine-things-you-need-to-know-about-webview.aspx)
 - [What’s new in WebView in Windows 8.1](http://blogs.windows.com/windows/b/appbuilder/archive/2013/07/17/what-s-new-in-webview-in-windows-8-1.aspx)
+- [WebView class](http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview.aspx)
 - [Accessing the DOM in a Windows 8 WebView](http://sertacozercan.com/2013/06/accessing-the-dom-in-a-windows-8-webview/)
 - [Samples of Countdown Timers](http://www.rmkwebdesign.com/Countdown_Timers/)
 
